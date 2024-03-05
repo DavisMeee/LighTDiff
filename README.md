@@ -5,7 +5,8 @@
 
 ## Schematics
 ![MainFrame](Schematric/Schematric.png)
-
+## Results
+![MainFrame](Schematric/Schematric.png)
 ## Env Install
 ```Install step
 conda create -n lightdiff python=3.10
