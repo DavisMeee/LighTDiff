@@ -23,10 +23,10 @@ BASICSR_EXT=True sudo $(which python) setup.py develop
 ```
 
 ## Test
-
-python lightdiff/train.py -opt configs/infer.yaml
-
+```
+python lightdiff/train.py -opt configs/test.yaml
+```
 ## Train
-
-python lightdiff/train.py -opt configs/train_lightdiff.yaml
-
+```
+python lightdiff/train.py -opt configs/train.yaml
+```
