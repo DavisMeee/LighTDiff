@@ -1,10 +1,9 @@
-# general settings
 name: infer
 model_type: LightDiff
 num_gpu: 1
 manual_seed: 42
 
-# dataset and data loader settings
+# Dataset
 datasets:
   train:
     name: train
@@ -107,7 +106,7 @@ val:
   save_img: true
 
   metrics:
-    psnr: # metric name, can be arbitrary
+    psnr:
       type: calculate_psnr
       crop_border: 0
       test_y_channel: false
@@ -117,7 +116,7 @@ val:
       type: calculate_lpips_lol
 
 
-# logging settings
+# Basicsr logger settings
 logger:
   print_freq: 100
   save_checkpoint_freq: !!float 5000
@@ -126,7 +125,6 @@ logger:
     project: ~
     resume_id: ~
 
-# dist training settings
 dist_params:
   backend: nccl
   port: 29500
