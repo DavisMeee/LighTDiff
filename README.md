@@ -9,7 +9,7 @@
 ![Visualization](Examples/result1.png)
 ![Visualization](Examples/result2.png)
 ![Visualization](Examples/result3.png)
-## Env Install
+## Pre-installation
 ```Install step
 conda create -n lightdiff python=3.10
 conda activate lightdiff
