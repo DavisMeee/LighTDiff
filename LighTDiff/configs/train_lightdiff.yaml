@@ -1,10 +1,9 @@
-# general settings
 name: training
 model_type: LightDiff
 num_gpu: 1
 manual_seed: 42
 
-# dataset and data loader settings
+# dataset
 datasets:
   train:
     name: train
