@@ -1,7 +1,3 @@
-'''
-ArcFace MS1MV3 r50
-https://github.com/deepinsight/insightface/tree/master/recognition/arcface_torch
-'''
 import math
 import os.path as osp
 import torch
@@ -30,10 +26,10 @@ from scripts.utils import pad_tensor_back
 from thop import profile
 
 @MODEL_REGISTRY.register()
-class PyDiffModel(BaseModel):
+class LighTDiff(BaseModel):
 
     def __init__(self, opt):
-        super(PyDiffModel, self).__init__(opt)
+        super(LighTDiff, self).__init__(opt)
 
         # define u-net network
         self.unet = build_network(opt['network_unet'])
@@ -115,10 +111,6 @@ class PyDiffModel(BaseModel):
             self.pad_bottom = data['pad_bottom'].to(self.device)
 
     def optimize_parameters(self, current_iter):
-        # if self.opt['train'].get('mask_loss', False):
-        #     assert self.opt['train'].get('cal_noise_only', False), "mask_loss can only used with cal_noise_only, now"
-        # optimize net_g
-        assert 'ddpm_cs' in self.opt['train'].get('train_type', None), "train_type must be ddpm_cs"
         self.optimizer_g.zero_grad()
         pred_noise, noise, x_recon_cs, x_start, t, color_scale = self.ddpm(self.HR, self.LR, 
                   train_type=self.opt['train'].get('train_type', None),
@@ -143,10 +135,7 @@ class PyDiffModel(BaseModel):
                   shift_x_recon_detach=self.opt['train'].get('shift_x_recon_detach', None))
         if self.opt['train'].get('vis_train', False) and current_iter <= self.opt['train'].get('vis_num', 100) and \
             self.opt['rank'] == 0:
-            '''
-            When the parameter 'vis_train' is set to True, the training process will be visualized. 
-            The value of 'vis_num' corresponds to the number of visualizations to be generated.
-            '''
+
             save_img_path = osp.join(self.opt['path']['visualization'], 'train',
                                             f'{current_iter}_noise_level_{self.bare_model.t}.png')
             x_recon_print = tensor2img(self.bare_model.x_recon, min_max=(-1, 1))
