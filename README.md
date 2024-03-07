@@ -7,7 +7,6 @@
 ![MainFrame](Schematric/Schematric.png)
 ## Results
 ![Visualization](Examples/result1.png)
-![Visualization](Examples/result2.png)
 ![Visualization](Examples/result3.png)
 ## Pre-installation
 ```Install step
