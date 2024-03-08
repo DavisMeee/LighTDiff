@@ -16,7 +16,7 @@ conda install pytorch==2.0.1 torchvision torchaudio cudatoolkit -c pytorch
 cd BasicSR-light
 pip install -r requirements.txt
 BASICSR_EXT=True sudo $(which python) setup.py develop
-cd ../lightdiff
+cd ../LighTDiff
 pip install -r requirements.txt
 BASICSR_EXT=True sudo $(which python) setup.py develop
 ```
