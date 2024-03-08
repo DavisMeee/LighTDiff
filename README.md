@@ -1,8 +1,5 @@
 # [MICCAI2024#224] LighTDiff: Surgical Endoscopic Image Low-Light Enhancement with T-Diffusion
 
-
-**LighT Architecture Diffusion Model For Low-light Image Enhancement**
-
 ## Schematics
 ![MainFrame](Schematric/Schematric.png)
 ## Results
