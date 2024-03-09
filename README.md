@@ -1,4 +1,4 @@
-# [MICCAI2024#224] LighTDiff: Surgical Endoscopic Image Low-Light Enhancement with T-Diffusion
+# [MICCAI2024#771] LighTDiff: Surgical Endoscopic Image Low-Light Enhancement with T-Diffusion
 
 ## Schematics
 ![MainFrame](Schematric/Schematric.png)
