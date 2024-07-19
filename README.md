@@ -1,5 +1,7 @@
 # [MICCAI2024] LighTDiff: Surgical Endoscopic Image Low-Light Enhancement with T-Diffusion
 ## Update
+**[7/20/2024] Fixed some bugs.**
+
 **[5/13/2024] Our work got early accepted by MICCAI2024!**
 
 **[5/17/2024] Our code is now available!**
