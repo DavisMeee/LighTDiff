@@ -2,9 +2,9 @@
 import os.path as osp
 from basicsr.train import train_pipeline
 
-import pydiff.archs
-import pydiff.data
-import pydiff.models
+import lightdiff.archs
+import lightdiff.data
+import lightdiff.models
 
 if __name__ == '__main__':
     root_path = osp.abspath(osp.join(__file__, osp.pardir, osp.pardir))
