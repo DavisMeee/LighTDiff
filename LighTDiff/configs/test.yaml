@@ -1,5 +1,5 @@
 name: test
-model_type: LightDiff
+model_type: LighTDiff
 num_gpu: 1
 manual_seed: 42
 
