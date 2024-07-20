@@ -36,9 +36,9 @@ class LighTDiff(BaseModel):
         self.unet = self.model_to_device(self.unet)
         opt['network_ddpm']['denoise_fn'] = self.unet 
 
-        self.controller_module = build_network(opt['controller_module'])
-        self.controller_module = self.model_to_device(self.controller_module)
-        opt['network_ddpm']['controller_module'] = self.controller_module
+        self.global_corrector = build_network(opt['network_global_corrector'])
+        self.global_corrector = self.model_to_device(self.global_corrector)
+        opt['network_ddpm']['controller_module'] = self.global_corrector
 
         self.ddpm = build_network(opt['network_ddpm'])
         self.ddpm = self.model_to_device(self.ddpm)
