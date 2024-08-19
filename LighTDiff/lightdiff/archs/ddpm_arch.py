@@ -76,7 +76,7 @@ class GaussianDiffusion(nn.Module):
         loss_type='l1',
         conditional=True,
         schedule_opt=None,
-        controller_module=None,
+        network_global_corrector=None,
         color_limit=None,
         resize_all=False,
         resize_res=-1,
@@ -88,7 +88,7 @@ class GaussianDiffusion(nn.Module):
         self.denoise_fn = denoise_fn
         self.loss_type = loss_type
         self.conditional = conditional
-        self.controller_module = controller_module
+        self.controller_module = network_global_corrector
         if schedule_opt is not None:
             pass
         if color_limit:
