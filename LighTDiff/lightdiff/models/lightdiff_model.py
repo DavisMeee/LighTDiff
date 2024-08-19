@@ -38,7 +38,7 @@ class LighTDiff(BaseModel):
 
         self.global_corrector = build_network(opt['network_global_corrector'])
         self.global_corrector = self.model_to_device(self.global_corrector)
-        opt['network_ddpm']['controller_module'] = self.global_corrector
+        opt['network_ddpm']['network_global_corrector'] = self.global_corrector
 
         self.ddpm = build_network(opt['network_ddpm'])
         self.ddpm = self.model_to_device(self.ddpm)
