@@ -1,3 +1,4 @@
+<div align="center">
 <samp>
   
 # <h2> LighTDiff: Surgical Endoscopic Image Low-Light Enhancement with T-Diffusion </h1>
@@ -7,6 +8,10 @@
 <h3> Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024 (Oral) </h2>
 
 </samp>
+---
+
+</div>     
+
 ## Update
 **[9/3/2024] Our work received Oral Presentation on MICCAI2024!**
 
