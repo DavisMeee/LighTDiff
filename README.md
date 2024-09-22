@@ -9,7 +9,7 @@
 
 </samp>
 
-| **[[```arXiv```](<https://arxiv.org/abs/2405.10550>)]** | **[[```Paper```](Coming Soom!)]** |
+| **[[```arXiv```](<https://arxiv.org/abs/2405.10550>)]** | **[```Paper```(Coming Soom!)]** |
 |:-------------------:|:-------------------:|
 
 
