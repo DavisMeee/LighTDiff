@@ -1,11 +1,11 @@
 <div align="center">
 <samp>
   
-<h2> LighTDiff: Surgical Endoscopic Image Low-Light Enhancement with T-Diffusion </h1>
+<h1> LighTDiff: Surgical Endoscopic Image Low-Light Enhancement with T-Diffusion </h1>
 
 <h4> Tong Chen⋆, Qingcheng Lyu⋆, Long Bai⋆, Erjian Guo, Huxin Gao, Xiaoxiao Yang, Hongliang Ren, and Luping Zhou </h3>
 
-<h3> Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024 (Oral) </h2>
+<h4> Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024 (Oral) </h3>
 
 </samp>
 
