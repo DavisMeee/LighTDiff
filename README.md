@@ -1,5 +1,6 @@
-<h2> [MICCAI2024 ORAL] LighTDiff: Surgical Endoscopic Image Low-Light Enhancement with T-Diffusion </h1>
-
+# <h2> LighTDiff: Surgical Endoscopic Image Low-Light Enhancement with T-Diffusion </h1>
+<h4> Tong Chen⋆, Qingcheng Lyu⋆, Long Bai⋆, Erjian Guo, Huxin Gao, Xiaoxiao Yang, Hongliang Ren, and Luping Zhou </h3>
+<h3> Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024 (Oral) </h2>
 ## Update
 **[9/3/2024] Our work received Oral Presentation on MICCAI2024!**
 
