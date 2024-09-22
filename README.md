@@ -15,7 +15,7 @@
 
 </div>     
 
-## Update
+### Update
 **[9/3/2024] Our work received Oral Presentation on MICCAI2024!**
 
 **[7/20/2024] Fixed some bugs.**
@@ -24,12 +24,12 @@
 
 **[5/17/2024] Our code is now available!**
 
-## Schematics
+### Schematics
 ![MainFrame](Schematric/Schematric.png)
-## Results
+### Results
 ![Visualization](Examples/result1.png)
 ![Visualization](Examples/result3.png)
-## Pre-installation
+### Pre-installation
 ```Install step
 conda create -n lightdiff python=3.10
 conda activate lightdiff
@@ -42,11 +42,11 @@ pip install -r requirements.txt
 BASICSR_EXT=True sudo $(which python) setup.py develop
 ```
 
-## Test
+### Test
 ```
 python lightdiff/train.py -opt configs/test.yaml
 ```
-## Train
+### Train
 ```
 python lightdiff/train.py -opt configs/train.yaml
 ```
