@@ -1,7 +1,7 @@
 <div align="center">
 <samp>
   
-# <h2> LighTDiff: Surgical Endoscopic Image Low-Light Enhancement with T-Diffusion </h1>
+<h2>** LighTDiff: Surgical Endoscopic Image Low-Light Enhancement with T-Diffusion** </h1>
 
 <h4> Tong Chen⋆, Qingcheng Lyu⋆, Long Bai⋆, Erjian Guo, Huxin Gao, Xiaoxiao Yang, Hongliang Ren, and Luping Zhou </h3>
 
