@@ -16,6 +16,8 @@
 </div>     
 
 ## Update
+**[10/9/2024] We received MICCAI2024 Best Paper Runner-Up!**
+
 **[9/3/2024] Our work received Oral Presentation on MICCAI2024!**
 
 **[7/20/2024] Fixed some bugs.**
