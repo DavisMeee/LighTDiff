@@ -9,7 +9,7 @@
 
 </samp>
 
-| **[[```arXiv```](<https://arxiv.org/abs/2405.10550>)]** | **[```Paper```](<https://link.springer.com/chapter/10.1007/978-3-031-72089-5_35>)** |
+| **[[```arXiv```](<https://arxiv.org/abs/2405.10550>)]** | **[[```Paper```](<https://link.springer.com/chapter/10.1007/978-3-031-72089-5_35>)]** |
 |:-------------------:|:-------------------:|
 
 
