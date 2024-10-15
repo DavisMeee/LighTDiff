@@ -6,7 +6,7 @@
 <h4> <b>Tong Chen†, Qingcheng Lyu†, Long Bai†</b>, Erjian Guo, Huxin Gao, Xiaoxiao Yang, Hongliang Ren, and Luping Zhou </h3>
 
 <h4> Medical Image Computing and Computer Assisted Intervention (MICCAI) 2024 </h3>
- <h3> (Best Paper Runner-Up)  </h3>
+ <h3> **Best Paper Runner-Up Award**  </h3>
 </samp>
 
 | **[[```arXiv```](<https://arxiv.org/abs/2405.10550>)]** | **[[```Paper```](<https://link.springer.com/chapter/10.1007/978-3-031-72089-5_35>)]** |
