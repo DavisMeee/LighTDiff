@@ -8,8 +8,8 @@ datasets:
   train:
     name: train
     type: LOL_Dataset
-    gt_root: ~
-    input_root: ~
+    gt_root: ~ # put your hr data path
+    input_root: ~ # put your lr data path
     input_mode: ~
     use_flip: true
     use_shuffle: true
@@ -21,8 +21,8 @@ datasets:
   val:
     name: validation
     type: LOL_Dataset
-    gt_root: ~
-    input_root: ~
+    gt_root: ~ # put your hr data path
+    input_root: ~ # put your lr data path
     input_mode: pad
     divide: 32
 
@@ -61,7 +61,7 @@ ddpm_schedule:
 
 # path
 path:
-  pretrain_network_g: ~
+  pretrain_network_g: ~  # ckpt path
   param_key_g: params
   strict_load_g: False
   pretrain_network_d: ~
