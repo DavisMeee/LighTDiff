@@ -99,7 +99,7 @@ val:
   structure: [1, 2, 2, 2]
   ddim_eta: !!float 1.0
   ddim_timesteps: 4
-  use_kind_align: false
+  use_kind_align: true
   cal_all: true
   show_all: true
   val_freq: !!float 5000
