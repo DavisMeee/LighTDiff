@@ -37,7 +37,7 @@
 ```Install step
 conda create -n lightdiff python=3.10
 conda activate lightdiff
-conda install pytorch==2.0.1 torchvision torchaudio cudatoolkit==12.1 -c pytorch
+conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia
 cd BasicSR-light
 pip install -r requirements.txt
 python setup.py develop
